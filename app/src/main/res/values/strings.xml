@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">HealthSync</string>
+<<<<<<< HEAD
     <string name="subtitle">Monitoramento de Saúde Comunitária - PIEX UniOpet</string>
+=======
+    <string name="subtitle">Monitoramento de Saúde - PIEX UniOpet</string>
+>>>>>>> 6b077b9 (Atualização de logo e remoção de API problematica)
 
     <!-- Main Activity -->
     <string name="imc_title">IMC</string>
@@ -101,8 +105,13 @@
     <string name="health_tips_3">3. Pratique pelo menos 30 minutos de atividade física moderada na maioria dos dias da semana.</string>
     <string name="health_tips_4">4. Durma de 7 a 8 horas por noite para um descanso adequado.</string>
     <string name="health_tips_5">5. Cuide da sua saúde mental: pratique meditação, hobbies e mantenha o contato com amigos e familiares.</string>
+<<<<<<< HEAD
     <string name="community_contact_title">Hospital Oswaldo Cruz</string>
     <string name="community_contact_description">Referência em saúde e pesquisa, com foco no bem-estar da comunidade.</string>
+=======
+    <string name="community_contact_title">SESA - Secretaria de Estado da Saúde</string>
+    <string name="community_contact_description">Referência em saúde pública para a comunidade.</string>
+>>>>>>> 6b077b9 (Atualização de logo e remoção de API problematica)
     <string name="community_phone">(41) 3350-1000</string>
     <string name="community_email">contato@saude.pr.gov.br</string>
     <string name="community_address">Av. Anhanguera, 165 - Rebouças, Curitiba - PR, 82530-000</string>
