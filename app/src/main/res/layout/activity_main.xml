@@ -11,18 +11,6 @@
         android:id="@+id/imageViewLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
-<<<<<<< HEAD
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/app_name"
-        android:scaleX="5"
-        android:scaleY="5"
-        android:src="@drawable/ic_launcher_foregroundmain"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-=======
         android:layout_marginTop="48dp"
         android:src="@drawable/ic_launcher_foreground"
         android:contentDescription="@string/app_name"
@@ -42,26 +30,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageViewLogo" />
->>>>>>> master
 
     <TextView
         android:id="@+id/textViewSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="@string/subtitle"
-        android:textColor="@color/text_secondary"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
-        android:layout_marginTop="10dp"
-        tools:layout_editor_absoluteY="182dp" />
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-=======
         android:layout_marginTop="4dp"
         android:text="@string/subtitle"
         android:textSize="16sp"
@@ -71,7 +44,6 @@
         app:layout_constraintTop_toBottomOf="@id/textViewTitle" />
 
     <ScrollView
->>>>>>> master
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="24dp"
@@ -122,28 +94,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/imc_title"
-<<<<<<< HEAD
-                            android:textColor="@color/primary_dark"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-=======
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textColor="@color/primary_dark" />
->>>>>>> master
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/imc_description"
-<<<<<<< HEAD
-                            android:textColor="@color/text_secondary"
-                            android:textSize="14sp" />
-=======
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
->>>>>>> master
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -184,28 +145,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/perimetria_title"
-<<<<<<< HEAD
-                            android:textColor="@color/primary_dark"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-=======
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textColor="@color/primary_dark" />
->>>>>>> master
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/perimetria_description"
-<<<<<<< HEAD
-                            android:textColor="@color/text_secondary"
-                            android:textSize="14sp" />
-=======
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
->>>>>>> master
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -246,28 +196,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/bioimpedancia_title"
-<<<<<<< HEAD
-                            android:textColor="@color/primary_dark"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-=======
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textColor="@color/primary_dark" />
->>>>>>> master
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/bioimpedancia_description"
-<<<<<<< HEAD
-                            android:textColor="@color/text_secondary"
-                            android:textSize="14sp" />
-=======
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
->>>>>>> master
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -308,28 +247,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/massa_magra_title"
-<<<<<<< HEAD
-                            android:textColor="@color/primary_dark"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-=======
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textColor="@color/primary_dark" />
->>>>>>> master
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/massa_magra_description"
-<<<<<<< HEAD
-                            android:textColor="@color/text_secondary"
-                            android:textSize="14sp" />
-=======
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
->>>>>>> master
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -379,10 +307,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/comunidade_description"
-<<<<<<< HEAD
-                            android:textColor="@color/text_secondary"
-                            android:textSize="14sp" />
-=======
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
                     </LinearLayout>
@@ -436,7 +360,6 @@
                             android:text="@string/api_alimentos_description"
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
->>>>>>> master
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -486,13 +409,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/historico_description"
-<<<<<<< HEAD
-                            android:textColor="@color/text_secondary"
-                            android:textSize="14sp" />
-=======
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary" />
->>>>>>> master
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

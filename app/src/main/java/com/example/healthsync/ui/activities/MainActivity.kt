@@ -22,13 +22,7 @@ class MainActivity : AppCompatActivity() {
         binding.cardBioimpedancia.setOnClickListener { startActivity(Intent(this, BioimpedanciaActivity::class.java)) }
         binding.cardMassaMagra.setOnClickListener { startActivity(Intent(this, MassaMagraActivity::class.java)) }
         binding.cardComunidade.setOnClickListener { startActivity(Intent(this, ComunidadeActivity::class.java)) }
-<<<<<<< HEAD
-        binding.cardHistorico.setOnClickListener { startActivity(Intent(this, HistoricoActivity::class.java)) }
-    }
-}
-=======
         binding.cardAPIAlimentos.setOnClickListener { startActivity(Intent(this, APIAlimentosActivity::class.java)) }
         binding.cardHistorico.setOnClickListener { startActivity(Intent(this, HistoricoActivity::class.java)) }
     }
 }
->>>>>>> master
